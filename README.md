@@ -1,5 +1,5 @@
 # SQLInjection
-This project includes some of the most common SQL Injection Vulnerabilities. 
+This project includes the most common SQL Injection Vulnerabilities. 
 They are builded for anyone who wants to learn to implement theoratical knowledge on a platform.
 I hope you find my project useful.
 
