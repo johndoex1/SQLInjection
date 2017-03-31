@@ -1,10 +1,11 @@
 <?php
 //1. create a DB connection
-$dbhost = "localhost:3306"; 
+$dbhost = "localhost"; 
 $dbuser = "your_username";
 $dbpassword ="your_password";
 $dbname = "valley";
-$connection = mysqli_connect($dbhost,$dbuser,$dbpassword,$dbname); //open a connection to a MySQL Server
+$dbport = 5432;
+$connection = mysqli_connect($dbhost,$dbuser,$dbpassword,$dbname, $dbport); //open a connection to a MySQL Server
 
 //test if connection occurred
 if(mysqli_connect_errno()){
